@@ -37,6 +37,17 @@ nav > ul {
   font-size: 18px;
 }
 
+button {
+  font-size: 18px;
+  background-color: #3882f6;
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 4px 2px;
+  color: #f9faf8;
+  border: none;
+  border-radius: 10px;
+}
+
 .header,
 .content1,
 .footer {
