@@ -5,19 +5,53 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.header {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .header,
-.box1,
+.content1,
 .footer {
   color: rgb(250, 244, 244);
   background: #1f2937;
 }
 
-.box1 {
+.content1 {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 900;
   color: #f9faf8;
+  padding: 150px;
 }
 
-#box1-subtext {
+#left-subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.flex-container {
+  /* border-color: green;
+  border-style: solid; */
+  display: flex;
+}
+
+.left-item {
+  /* border-color: red;
+  border-style: solid; */
+  height: 200px;
+  padding: 40px;
+  width: 50%;
+}
+
+.right-item {
+  /* border-color: red;
+  border-style: solid; */
+  padding: 40px;
+  background: grey;
   font-size: 20px;
+  height: 200px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
