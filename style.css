@@ -197,3 +197,10 @@ button {
   margin: 40px;
   margin-left: 300px;
 }
+
+/* Section 5 */
+.footer {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+}
