@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-
+/* Section 1 */
 .header {
   font-size: 24px;
   color: #f9faf8;
@@ -93,4 +93,49 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Section 2 */
+
+.content2 {
+  text-align: center;
+  margin: 0;
+  padding: 100px;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  border: 1px solid yellow;
+  flex-wrap: wrap;
+  /* max-width: 1000px;
+  min-width: 630px; */
+  gap: 30px;
+  margin: 0;
+  padding-left: 200px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  padding: 40px;
+  /* margin: 30px; */
+  width: 100px;
+  height: 100px;
+}
+
+.text {
+  font-size: 18px;
+  color: #e5e7eb;
+  /* display: flex; */
+  /* justify-content: center; */
+  padding: 40px;
+  padding-top: 10px;
+  /* margin: 30px; */
+  width: 100px;
+  height: 100px;
 }
